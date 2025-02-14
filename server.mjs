@@ -2,7 +2,7 @@ console.log("hello server");
 
 import express from "express";
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 //192.168.228.243:3000
 app.get('/', (req, res) => {
     console.log(req.ip);
