@@ -1,16 +1,17 @@
 {
   "name": "hello-world-server",
   "version": "1.0.0",
-  "description": "vndkjnkdn",
+  "description": "",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.21.2"
   }
 }
